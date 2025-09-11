@@ -1,0 +1,47 @@
+header{
+    text-align: center;
+    background-color: cornsilk;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: cornsilk;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.me{
+    text-align: center;
+    text-decoration: underline;
+    background-color: cornsilk;
+    font-size: medium;
+}
+.maselegidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.utensilios{
+text-align: center;
+}
+.cacerolas{
+    text-align: center;
+}
+.tenedores{
+    text-align: center;
+}
+.sartenes{
+    text-align: center;
+}
+.cuchillos{
+    text-align: center;
+}
+.mp{
+    text-align: center;
+    text-decoration: underline;
+    background-color: cornsilk;
+    font-size: medium;
+}
