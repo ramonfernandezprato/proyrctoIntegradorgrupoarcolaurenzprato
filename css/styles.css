@@ -1,51 +1,144 @@
+.bodyhome{
+    background-color: #eac4d2;
+}
 header{
-    text-align: center;
-    background-color: cornsilk;
+   text-align: right;
+}
+header a {
+   text-decoration: none;
+   color: gray;
+}
+
+.headlogin{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+
+
+.head1{
+   margin-left: 20px;
+}
+
+
+a{
+   text-decoration: none;
+}
+
+.logo1{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+.logo{
+   border-radius: 180px;
+   display: block;
+   margin: 0 auto;
+   height: 150px;
+   width: 150px;
+}
+
+.titulo{
+   text-align: center;
+   background-color: cornsilk;
 }
 footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: cornsilk;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: cornsilk;
 }
 ul li a{
-    text-decoration: none;
-    color: black;
+   text-decoration: none;
+   color: black;
 }
+
+
 .me{
-    text-align: center;
-    text-decoration: underline;
-    background-color: cornsilk;
-    font-size: medium;
+   text-align: center;
+   background-color: cornsilk;
+   font-size: large;
 }
-.maselegidos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 50px; 
+.maselegidos {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 50px;
+   text-align: center;
+
 }
-.utensilios{
-text-align: center;
+.melegidos{
+   border: 2px solid black;
+   border-radius: 40px;
+   margin-bottom: 10px;
+   padding: 13px;
+   height: 450px;
+   width: 300px;
+   padding: 10px;
+   background-color: white;
 }
-.cacerolas{
-    text-align: center;
-}
-.tenedores{
-    text-align: center;
-}
-.sartenes{
-    text-align: center;
-}
-.cuchillos{
-    text-align: center;
+.melegidos img{
+   height: 200px;
+   width: 200px;
 }
 .mp{
-    text-align: center;
-    text-decoration: underline;
-    background-color: cornsilk;
-    font-size: medium;
+   text-align: center;
+   background-color: cornsilk;
+   font-size: large;
+}
+.masproductos{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 50px;
+   text-align: center;
+}
+.mproductos{
+   border: 2px solid black;
+   border-radius: 40px;
+   margin-bottom: 10px;
+   padding: 13px;
+   height: 450px;
+   width: 300px;
+   padding: 10px;
+}
+.mproductos img{
+   height: 200px;
+   width: 200px;
+}
+.melegidos a{
+   text-decoration: none;
+}
+
+.h1a{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   font-size: 30px;
+   margin-top: 20px;
+}
+
+.formbox2{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(197, 191, 191, 0.5);
+   width: 60vw;
+   height: 500px;
+   margin: 50px auto;
+}
+
+.form2{
+   padding: 30px;
+   padding-left: 10px;
+   padding-right: 10px;
 }
 
 .h1register{
@@ -96,5 +189,17 @@ text-align: center;
 .bodyregister{
     background-color:#EAC4D2;
     background-image: url(../img/ada0997a-ea5a-48cd-99f1-f61a36cc469b.png.PNG);
+}
+
+
+.obligatorio{
+   color: red;
+   margin-top: 2px;
+   font-size: smaller;
+}
+
+.nocuenta{
+   text-decoration: none;
+   color: blue;
 }
 
