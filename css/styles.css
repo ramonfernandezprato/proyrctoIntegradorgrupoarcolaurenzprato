@@ -1,7 +1,31 @@
 header{
-    text-align: center;
-    background-color: cornsilk;
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
 }
+
+.head1{
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+.logo1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.logo{
+    border-radius: 180px;
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -46,4 +70,40 @@ text-align: center;
     text-decoration: underline;
     background-color: cornsilk;
     font-size: medium;
+}
+
+.h1a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.formbox2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(197, 191, 191, 0.5);
+    width: 60vw;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.form2{
+    padding: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.obligatorio{
+    color: red;
+    margin-top: 2px;
+    font-size: smaller;
+}
+
+.nocuenta{
+    text-decoration: none;
+    color: blue;
 }
