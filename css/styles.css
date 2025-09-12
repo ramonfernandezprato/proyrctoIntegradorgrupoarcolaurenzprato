@@ -1,5 +1,6 @@
-
-
+.bodyhome{
+    background-color: #eac4d2;
+}
 header{
    text-align: right;
 }
@@ -68,6 +69,7 @@ ul li a{
    flex-wrap: wrap;
    padding: 50px;
    text-align: center;
+
 }
 .melegidos{
    border: 2px solid black;
@@ -77,6 +79,7 @@ ul li a{
    height: 450px;
    width: 300px;
    padding: 10px;
+   background-color: white;
 }
 .melegidos img{
    height: 200px;
