@@ -1,109 +1,82 @@
+
+
 header{
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
+   text-align: right;
 }
-
-.head1{
-    margin-left: 20px;
+header a {
+   text-decoration: none;
+   color: gray;
 }
-
-a{
-    text-decoration: none;
+.titulo{
+   text-align: center;
+   background-color: cornsilk;
 }
-.logo1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.logo{
-    border-radius: 180px;
-    display: block;
-    margin: 0 auto;
-    height: 150px;
-    width: 150px;
-}
-
 footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: cornsilk;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: cornsilk;
 }
 ul li a{
-    text-decoration: none;
-    color: black;
+   text-decoration: none;
+   color: black;
 }
+
+
 .me{
-    text-align: center;
-    text-decoration: underline;
-    background-color: cornsilk;
-    font-size: medium;
+   text-align: center;
+   background-color: cornsilk;
+   font-size: large;
 }
-.maselegidos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 50px; 
+.maselegidos {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 50px;
+   text-align: center;
 }
-.utensilios{
-text-align: center;
+.melegidos{
+   border: 2px solid black;
+   border-radius: 40px;
+   margin-bottom: 10px;
+   padding: 13px;
+   height: 450px;
+   width: 300px;
+   padding: 10px;
 }
-.cacerolas{
-    text-align: center;
-}
-.tenedores{
-    text-align: center;
-}
-.sartenes{
-    text-align: center;
-}
-.cuchillos{
-    text-align: center;
+.melegidos img{
+   height: 200px;
+   width: 200px;
 }
 .mp{
-    text-align: center;
-    text-decoration: underline;
-    background-color: cornsilk;
-    font-size: medium;
+   text-align: center;
+   background-color: cornsilk;
+   font-size: large;
 }
-
-.h1a{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 30px;
-    margin-top: 20px;
+.masproductos{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 50px;
+   text-align: center;
 }
-
-.formbox2{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(197, 191, 191, 0.5);
-    width: 60vw;
-    height: 500px;
-    margin: 50px auto;
+.mproductos{
+   border: 2px solid black;
+   border-radius: 40px;
+   margin-bottom: 10px;
+   padding: 13px;
+   height: 450px;
+   width: 300px;
+   padding: 10px;
 }
-
-.form2{
-    padding: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+.mproductos img{
+   height: 200px;
+   width: 200px;
 }
-
-.obligatorio{
-    color: red;
-    margin-top: 2px;
-    font-size: smaller;
-}
-
-.nocuenta{
-    text-decoration: none;
-    color: blue;
+.melegidos a{
+   text-decoration: none;
 }
