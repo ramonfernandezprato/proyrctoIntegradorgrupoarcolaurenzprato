@@ -38,6 +38,7 @@ a{
    margin: 0 auto;
    height: 150px;
    width: 150px;
+   border: solid 2px #F6A7C1;
 }
 
 .titulo{
@@ -157,8 +158,19 @@ ul li a{
     border-radius: 15px;
     border-color: #fdcf76;
     margin: 20px auto;
-
 }
+
+.formbox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcf0cf;
+    width: 350px;
+    height: 400px;
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: #fdcf76;
+    margin: 20px auto;}
 
 .form1{
     padding: 15px;
@@ -186,7 +198,7 @@ ul li a{
     padding: 5px;
 }
 
-.bodyregister{
+.bodyrl{
     background-color:#EAC4D2;
     background-image: url(../img/ada0997a-ea5a-48cd-99f1-f61a36cc469b.png.PNG);
 }
