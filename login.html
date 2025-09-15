@@ -6,11 +6,8 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body class="bodylogin">
+<body class="bodyrl">
     <header class="headlogin">
-        <div class="head1">
-            <a href="./index.html">HOME</a>
-        </div>
         <div class="head1">
             <a href="./login.html">Login</a>
         </div>
@@ -23,33 +20,39 @@
         <img class="logo" src="./img/logoPI.png">
     </main>
 
-    <article class="h1a">
-    <h1>BIENVENIDO</h1>         
-    </article>
-
-    <article class="formbox2">
+<section>
+    <article class="formbox1">
     <form action="index.html" method="get">
 
+       <h1 class="h1a">BIENVENIDO</h1>    
     <div class="form2">
         <label for="email">Email</label>
-        <br><input class="text1" type="email" id="email" name="email" value="" placeholder="Ingresa tu email">
+        <br><input class="userbox" type="email" id="email" name="email" value="" placeholder="Ingresa tu email" required>
         <p class="obligatorio">Obligatorio.</p>
     </div>
 
     <div class="form2">
         <label for="contraseña">Contraseña</label>
-        <br><input class="text1" type="contraseña" id="contraseña" name="contraseña" value="" placeholder="Ingresa tu contraseña">
+        <br><input class="userbox" type="contraseña" id="contraseña" name="contraseña" value="" placeholder="Ingresa tu contraseña" required>
         <p class="obligatorio">Obligatorio.</p>
     </div>
 
-    <div class="form1 buttonbox">
+    <div class="buttonbox">
         <button class="button" type="submit">Ingresar</button>
     </div>
 
     <div class="register">
-        <a class="nocuenta" href="./register.html">No tengo cuenta</a>
+        <p>No tengo cuenta. <a class="nocuenta" href="./register.html">Registrarme</a></p>
     </div>
     </form>
     </article>
+</section>
+
+<footer class="footerhomebox">
+    <p class="footerhomep">Ramon Fernandez Prato</p>
+    <p class="footerhomep">Elina Areco</p>
+    <p class="footerhomep">Valentina Laurenz</p>
+</footer>
+
 </body>
 </html>
