@@ -1,5 +1,10 @@
+*{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
 .bodyhome{
-    background-color: #eac4d2;
+    background-color: #fcf0cf;
 }
 header{
    text-align: right;
@@ -38,30 +43,38 @@ a{
    margin: 0 auto;
    height: 150px;
    width: 150px;
-   border: solid 2px #F6A7C1;
+   border: solid 2px pink;
 }
 
 .titulo{
    text-align: center;
-   background-color: cornsilk;
+    background-color: #F3D1DC;
+   margin-top: 30px;
+   border: 2px solid #f6a7c1;
 }
-footer{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   background-color: cornsilk;
-}
+
 ul li a{
    text-decoration: none;
    color: black;
 }
 
-
 .me{
    text-align: center;
-   background-color: cornsilk;
+   background-color: #F3D1DC;
    font-size: large;
+   margin-top: 30px;
+   border: 2px solid #f6a7c1;
 }
+
+.h1h{
+    padding: 20px;
+
+}
+
+.h1h1{
+    padding: 15px;
+}
+
 .maselegidos {
    display: flex;
    flex-direction: row;
@@ -72,25 +85,31 @@ ul li a{
    text-align: center;
 
 }
-.melegidos{
-   border: 2px solid black;
-   border-radius: 40px;
-   margin-bottom: 10px;
-   padding: 13px;
-   height: 450px;
-   width: 300px;
-   padding: 10px;
-   background-color: white;
+
+.prod{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    padding: 13px;
+    height: 450px;
+    width: 300px;
+    padding: 10px;
 }
+
 .melegidos img{
    height: 200px;
    width: 200px;
 }
+
 .mp{
    text-align: center;
-   background-color: cornsilk;
+    background-color: #F3D1DC;
    font-size: large;
+   margin-top: 30px;
+   border: 2px solid #f6a7c1;
 }
+
 .masproductos{
    display: flex;
    flex-direction: row;
@@ -100,15 +119,7 @@ ul li a{
    padding: 50px;
    text-align: center;
 }
-.mproductos{
-   border: 2px solid black;
-   border-radius: 40px;
-   margin-bottom: 10px;
-   padding: 13px;
-   height: 450px;
-   width: 300px;
-   padding: 10px;
-}
+
 .mproductos img{
    height: 200px;
    width: 200px;
@@ -116,6 +127,26 @@ ul li a{
 .melegidos a{
    text-decoration: none;
 }
+
+.vermas{
+    margin-top: 20px;
+}
+
+.footerhomep{
+margin: 20px;
+padding: 5px;
+}
+
+.footerhomebox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #F3D1DC;
+    border: 2px solid #f6a7c1;
+}
+
 
 .h1a{
    display: flex;
@@ -137,7 +168,7 @@ ul li a{
 }
 
 .form2{
-   padding: 30px;
+   padding: 15px;
    padding-left: 10px;
    padding-right: 10px;
 }
@@ -151,13 +182,13 @@ ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fcf0cf;
-    width: 450px;
-    height: 550px;
+    width: 520px;
+    height: 650px;
     border: solid 2px;
     border-radius: 15px;
-    border-color: #fdcf76;
     margin: 20px auto;
+    background-color: #fcf0cf;
+    border-color: #fdcf76;
 }
 
 .formbox1{
@@ -165,12 +196,13 @@ ul li a{
     justify-content: center;
     align-items: center;
     background-color: #fcf0cf;
-    width: 350px;
-    height: 400px;
+    width: 520px;
+    height: 500px;
     border: solid 2px;
     border-radius: 15px;
     border-color: #fdcf76;
-    margin: 20px auto;}
+    margin: 20px auto;
+}
 
 .form1{
     padding: 15px;
@@ -194,15 +226,18 @@ ul li a{
 }
 
 .button{
-    margin: 15px;
-    padding: 5px;
+    margin: 18px;
+    padding: 10px;
+    border: 0px;
+    background-color:#fdcf76;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .bodyrl{
     background-color:#EAC4D2;
     background-image: url(../img/ada0997a-ea5a-48cd-99f1-f61a36cc469b.png.PNG);
 }
-
 
 .obligatorio{
    color: red;
@@ -212,6 +247,6 @@ ul li a{
 
 .nocuenta{
    text-decoration: none;
-   color: blue;
+   font-weight: bold;
 }
 
