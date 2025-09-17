@@ -43,14 +43,12 @@ a{
    margin: 0 auto;
    height: 150px;
    width: 150px;
-   border: solid 2px pink;
 }
 
 .titulo{
-   text-align: center;
+    text-align: center;
     background-color: #F3D1DC;
-   margin-top: 30px;
-   border: 2px solid #f6a7c1;
+    margin-top: 30px;
 }
 
 ul li a{
@@ -63,12 +61,10 @@ ul li a{
    background-color: #F3D1DC;
    font-size: large;
    margin-top: 30px;
-   border: 2px solid #f6a7c1;
 }
 
 .h1h{
     padding: 20px;
-
 }
 
 .h1h1{
@@ -83,7 +79,6 @@ ul li a{
    flex-wrap: wrap;
    padding: 50px;
    text-align: center;
-
 }
 
 .prod{
@@ -107,7 +102,6 @@ ul li a{
     background-color: #F3D1DC;
    font-size: large;
    margin-top: 30px;
-   border: 2px solid #f6a7c1;
 }
 
 .masproductos{
@@ -144,7 +138,6 @@ padding: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: #F3D1DC;
-    border: 2px solid #f6a7c1;
 }
 
 
@@ -250,3 +243,13 @@ padding: 5px;
    font-weight: bold;
 }
 
+.thermomix1{
+height: 300px;
+width: 500px;
+background-color: #fcf0cf;
+margin-left: 20px;
+}
+
+.thermomix2{
+margin-left: 20px;
+}
