@@ -15,17 +15,15 @@ header a {
 }
 
 .headlogin{
-    display: flex;
+   display: flex;
    flex-wrap: wrap;
    flex-direction: row;
    justify-content: flex-end;
 }
 
-
 .head1{
    margin-left: 20px;
 }
-
 
 a{
    text-decoration: none;
@@ -51,6 +49,11 @@ a{
     margin-top: 30px;
 }
 
+.h1h{
+    padding: 15px;
+      border-radius: 10px;
+}
+
 ul li a{
    text-decoration: none;
    color: black;
@@ -61,6 +64,7 @@ ul li a{
    background-color: #F3D1DC;
    font-size: large;
    margin-top: 30px;
+<<<<<<< HEAD
 }
 
 .h1h{
@@ -69,16 +73,33 @@ ul li a{
 
 .h1h1{
     padding: 15px;
+=======
+   border: 2px solid #f6a7c1;
+   border-radius: 10px;
+}
+
+.melegidos{
+  background-color: white;
+   border: 2px solid black;
+   border-radius: 40px;
+   margin-bottom: 10px;
+   height: 400px;
+   width: 300px;
+   justify-content: space-around;
+   margin-top: 15px;
+   padding-bottom: 15px;
+>>>>>>> 022acdd999b49d041de1ea93ae0855bb84dd622a
 }
 
 .maselegidos {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
-   padding: 50px;
+   padding: 15px;
    text-align: center;
+<<<<<<< HEAD
 }
 
 .prod{
@@ -90,6 +111,8 @@ ul li a{
     height: 450px;
     width: 300px;
     padding: 10px;
+=======
+>>>>>>> 022acdd999b49d041de1ea93ae0855bb84dd622a
 }
 
 .melegidos img{
@@ -99,18 +122,33 @@ ul li a{
 
 .mp{
    text-align: center;
-    background-color: #F3D1DC;
+   background-color: #F3D1DC;
    font-size: large;
    margin-top: 30px;
+<<<<<<< HEAD
+=======
+   border: 2px solid #f6a7c1;
+   border-radius: 10px;
 }
-
+.mproductos{
+   background-color: white;
+   border: 2px solid black;
+   border-radius: 40px;
+   margin-bottom: 10px;
+   height: 400px;
+   width: 300px;
+   justify-content: space-around;
+   margin-top: 15px;
+   padding-bottom: 15px;
+>>>>>>> 022acdd999b49d041de1ea93ae0855bb84dd622a
+}
 .masproductos{
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
-   padding: 50px;
+   padding: 15px;
    text-align: center;
 }
 
@@ -138,6 +176,11 @@ padding: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: #F3D1DC;
+<<<<<<< HEAD
+=======
+    border: 2px solid #f6a7c1;
+    margin-top: 15px;
+>>>>>>> 022acdd999b49d041de1ea93ae0855bb84dd622a
 }
 
 
@@ -241,6 +284,35 @@ padding: 5px;
 .nocuenta{
    text-decoration: none;
    font-weight: bold;
+}
+.titulodetalles{
+   text-align: center;
+   font-size: x-large;
+   background-color: #f6a7c1;
+   border: 1px solid black;
+   border-radius: 10px;
+}
+
+.detallesvermas{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   border: 1px solid black;
+   border-radius: 10px;
+   margin: 10px;
+   padding: 10px;
+   width: 300px;
+   height: 250px;
+   justify-content: space-around;
+}
+.detallesvermas p{
+   padding: 10px;
+   justify-content:center;
+   text-align:center;
+}
+.detallesvermas h1{
+   text-align: center;
+   padding: 5px;
 }
 
 .thermomix1{
