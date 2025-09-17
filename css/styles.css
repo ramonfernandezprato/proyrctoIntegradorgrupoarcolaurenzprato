@@ -4,7 +4,13 @@
 }
 
 .bodyhome{
-    background-color: #fcf0cf;
+   background-color: #fcf0cf;
+   background-image: url(../img/ada0997a-ea5a-48cd-99f1-f61a36cc469b.png.PNG);
+}
+.sectionhome{
+   background-color: #F3D1DC;
+   border-radius: 10px;
+   padding: 2px;
 }
 header{
    text-align: right;
@@ -13,16 +19,26 @@ header a {
    text-decoration: none;
    color: rgb(84, 84, 84);
 }
+.headhome{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   padding: 5px;
+   margin: 5px;
+}
+}
 
 .headlogin{
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
-   justify-content: flex-end;
+   justify-content: right;
 }
 
 .head1{
    margin-left: 20px;
+   color: black;
 }
 
 a{
@@ -33,6 +49,7 @@ a{
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
+   
 }
 
 .logo{
@@ -46,7 +63,6 @@ a{
 .titulo{
     text-align: center;
     background-color: #F3D1DC;
-    margin-top: 30px;
 }
 
 ul li a{
@@ -62,7 +78,7 @@ ul li a{
 }
 
 .h1h{
-    padding: 20px;
+    padding-bottom: 10px;
 }
 
 .h1h1{
@@ -126,6 +142,7 @@ ul li a{
    justify-content: space-around;
    margin-top: 15px;
    padding-bottom: 15px;
+   
 }
 .masproductos{
    display: flex;
