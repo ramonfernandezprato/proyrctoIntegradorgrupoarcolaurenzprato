@@ -11,7 +11,7 @@ header{
 }
 header a {
    text-decoration: none;
-   color: gray;
+   color: rgb(84, 84, 84);
 }
 
 .headlogin{
@@ -49,11 +49,6 @@ a{
     margin-top: 30px;
 }
 
-.h1h{
-    padding: 15px;
-      border-radius: 10px;
-}
-
 ul li a{
    text-decoration: none;
    color: black;
@@ -63,8 +58,7 @@ ul li a{
    text-align: center;
    background-color: #F3D1DC;
    font-size: large;
-   margin-top: 30px;
-<<<<<<< HEAD
+   margin-top: 50px;
 }
 
 .h1h{
@@ -72,9 +66,7 @@ ul li a{
 }
 
 .h1h1{
-    padding: 15px;
-=======
-   border: 2px solid #f6a7c1;
+   padding: 15px;
    border-radius: 10px;
 }
 
@@ -88,7 +80,6 @@ ul li a{
    justify-content: space-around;
    margin-top: 15px;
    padding-bottom: 15px;
->>>>>>> 022acdd999b49d041de1ea93ae0855bb84dd622a
 }
 
 .maselegidos {
@@ -99,7 +90,6 @@ ul li a{
    flex-wrap: wrap;
    padding: 15px;
    text-align: center;
-<<<<<<< HEAD
 }
 
 .prod{
@@ -111,8 +101,6 @@ ul li a{
     height: 450px;
     width: 300px;
     padding: 10px;
-=======
->>>>>>> 022acdd999b49d041de1ea93ae0855bb84dd622a
 }
 
 .melegidos img{
@@ -125,10 +113,8 @@ ul li a{
    background-color: #F3D1DC;
    font-size: large;
    margin-top: 30px;
-<<<<<<< HEAD
-=======
-   border: 2px solid #f6a7c1;
    border-radius: 10px;
+   margin-top: 50px;
 }
 .mproductos{
    background-color: white;
@@ -140,7 +126,6 @@ ul li a{
    justify-content: space-around;
    margin-top: 15px;
    padding-bottom: 15px;
->>>>>>> 022acdd999b49d041de1ea93ae0855bb84dd622a
 }
 .masproductos{
    display: flex;
@@ -176,20 +161,7 @@ padding: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: #F3D1DC;
-<<<<<<< HEAD
-=======
-    border: 2px solid #f6a7c1;
     margin-top: 15px;
->>>>>>> 022acdd999b49d041de1ea93ae0855bb84dd622a
-}
-
-
-.h1a{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   font-size: 30px;
-   margin-top: 20px;
 }
 
 .formbox2{
@@ -209,10 +181,11 @@ padding: 5px;
    padding-right: 10px;
 }
 
-.h1register{
+.h1a{
     display: flex;
     justify-content: center;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 .formbox{
     display: flex;
@@ -252,13 +225,15 @@ padding: 5px;
 }
 
 .userbox{
-    height: 25px;
-    width: 200px;
+    height: 35px;
+    width: 250px;
+    margin-top: 5px;
 }
 
 .buttonbox{
     display: flex;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .button{
@@ -285,12 +260,21 @@ padding: 5px;
    text-decoration: none;
    font-weight: bold;
 }
+
+.nocuentabox{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
 .titulodetalles{
    text-align: center;
-   font-size: x-large;
-   background-color: #f6a7c1;
-   border: 1px solid black;
-   border-radius: 10px;
+   margin-top: 40px;
+   text-align: center;
+   background-color: #F3D1DC;
+   font-size: 30px;
+   margin-top: 30px;
+   padding: 20px;
 }
 
 .detallesvermas{
@@ -304,6 +288,7 @@ padding: 5px;
    width: 300px;
    height: 250px;
    justify-content: space-around;
+   background-color: white;
 }
 .detallesvermas p{
    padding: 10px;
@@ -315,13 +300,13 @@ padding: 5px;
    padding: 5px;
 }
 
-.thermomix1{
-height: 300px;
-width: 500px;
-background-color: #fcf0cf;
-margin-left: 20px;
+.ulbox{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
 }
 
-.thermomix2{
-margin-left: 20px;
+.bodyproduct{
+  background-color: #fcf0cf;
 }
