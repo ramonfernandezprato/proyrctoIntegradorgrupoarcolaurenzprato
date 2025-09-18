@@ -1,6 +1,5 @@
 *{
-   padding: 0px;
-   margin: 0px
+   box-sizing: border-box;
 }
 
 .headtodo{
@@ -103,33 +102,58 @@ ul li a{
    margin-bottom: 15px;
 }
 
-.melegidos{
-   background-color: white;
-   border: 2px solid black;
-   border-radius: 40px;
-   margin-bottom: 10px;
-   height: 400px;
-   width: 300px;
-   justify-content: space-around;
-   margin-top: 15px;
-   padding-bottom: 15px;
+.maselegidos {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   gap: 24px;
+   align-items: flex-start;
+   padding: 0 20px 30px;
 }
 
-.maselegidos {
+.prod{
+   background: #fff;
+   border: 2px solid #000;
+   border-radius: 20px;
+   padding: 16px;
    display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+   flex-direction: column;
    align-items: center;
-   flex-wrap: wrap;
-   padding: 15px;
    text-align: center;
 }
 
-.melegidos img{
-   height: 200px;
-   width: 200px;
+.prod img{
+   width: 100%;
+   max-width: 220px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 10px;
+   margin-bottom: 10px;
+}
+
+.prod h1{
+   font-size: 1rem;
+   margin: 6px 0;
+}
+
+.homep{
+   padding: 0 8px 8px;
+}
+
+.vermas{
    margin-top: 10px;
-   margin-bottom: 5px;
+}
+
+.melegidos, .mproductos{
+   width: auto;
+   height: auto;
+}
+
+.productos{
+   flex: 1;
+   display: grid;
+   grid-template-columns: repeat(4,minmax(0,1fr));
+   gap: 20px;
 }
 
 .mp{
@@ -142,18 +166,7 @@ ul li a{
    margin-left: 35px;
    margin-right: 35px;
 }
-.mproductos{
-   background-color: white;
-   border: 2px solid black;
-   border-radius: 40px;
-   margin-bottom: 10px;
-   height: 400px;
-   width: 300px;
-   justify-content: space-around;
-   margin-top: 15px;
-   padding-bottom: 15px;
-   
-}
+
 
 .masproductos{
    display: flex;
@@ -165,24 +178,6 @@ ul li a{
    text-align: center;
 }
 
-.mproductos img{
-   height: 200px;
-   width: 200px;
-   margin-top: 10px;
-   margin-bottom: 5px;
-}
-.melegidos a{
-   text-decoration: none;
-}
-
-.vermas{
-    margin-top: 20px;
-}
-
-.homep{
-   padding: 20px 10px
-
-}
 
 .footerhomep{
 margin: 20px;
@@ -345,4 +340,26 @@ justify-content: center;
 
 ::placeholder{
    padding-left: 5px;
+}
+
+.categoriasproductos{
+   width: 260px;
+   background-color: #fcf0cf;
+   border: 1px solid #e1d4b0;
+   border-radius: 12px;
+   padding: 18px;
+   position: sticky;
+   top: 20px
+}
+
+.categoriasproductos h2{
+   margin-bottom: 12px;
+   font-size: 1.25rem;
+   color: #b16e4b;
+}
+
+.categoriasproductos ul{
+   list-style: none;
+   padding: 0;
+   margin: 0;
 }
