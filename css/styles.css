@@ -189,6 +189,7 @@ padding: 5px;
     flex-direction: row;
     background-color: #f4e0ab;
     margin-top: 15px;
+    border-radius: 10px;
 }
 
 .formbox2{
@@ -310,7 +311,7 @@ justify-content: center;
    margin: 10px;
    padding: 10px;
    width: 300px;
-   height: 250px;
+   height: 350px;
    justify-content: space-around;
    background-color: white;
    margin-top: 15px;
@@ -372,6 +373,7 @@ justify-content: center;
    flex-wrap: wrap;
    flex-direction: row;
    justify-content: left;
+   padding-top: 35px;
 }
 
 .logofoot{
@@ -384,7 +386,8 @@ justify-content: center;
 }
 
 .mapa{  
-    height: 200px;
-    width: 500px;
+   height: 200px;
+   width: 550px;
    margin: 10px;
+   border-radius: 10px;
 }
