@@ -379,7 +379,6 @@ justify-content: center;
 }
 
 .mapa{  
-<<<<<<< HEAD
     height: 180px;
     width: 400px;
     margin: 15px;
@@ -388,10 +387,8 @@ justify-content: center;
 .lr{
    display: flex;
    justify-content: flex-end;
-=======
    height: 200px;
    width: 550px;
    margin: 10px;
    border-radius: 10px;
->>>>>>> e4a968107c74d728a7f1375666400f16edac8a3b
 }
