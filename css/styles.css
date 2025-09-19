@@ -170,8 +170,8 @@ ul li a{
 }
 
 .footerhomep{
-margin: 20px;
-padding: 5px;
+   margin: 20px;
+   padding: 5px;
 }
 
 .footerhomebox{
@@ -183,18 +183,7 @@ padding: 5px;
     border-radius: 10px;
 }
 
-.formbox2{
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-   align-items: center;
-   background-color: rgba(197, 191, 191, 0.5);
-   width: 60vw;
-   height: 500px;
-   margin: 50px auto;
-}
-
-.form2{
+.form{
    padding: 15px;
    padding-left: 10px;
    padding-right: 10px;
@@ -213,7 +202,7 @@ padding: 5px;
     width: 520px;
     height: 650px;
     border-radius: 15px;
-    margin: 20px auto;
+    margin: 50px auto;
     background-color: #f4e0ab;
 }
 
@@ -225,13 +214,7 @@ padding: 5px;
     width: 520px;
     height: 500px;
     border-radius: 15px;
-    margin: 20px auto;
-}
-
-.form1{
-    padding: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 50px auto;
 }
 
 .obligatorio{
@@ -240,9 +223,9 @@ padding: 5px;
 }
 
 .userbox{
-    height: 35px;
-    width: 250px;
-    margin-top: 5px;
+   height: 35px;
+   width: 250px;
+   margin-top: 5px;
 }
 
 .buttonbox{
@@ -255,7 +238,7 @@ padding: 5px;
     margin: 18px;
     padding: 15px;
     border: 0px;
-    background-color:#fdcf76;
+    background-color:#ecca6d;
     border-radius: 5px;
     font-weight: bold;
     font-size: 20px;
@@ -278,9 +261,9 @@ padding: 5px;
 }
 
 .nocuentabox{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
 .titulodetalles{
@@ -329,8 +312,8 @@ justify-content: center;
    background-image: url(../img/ada0997a-ea5a-48cd-99f1-f61a36cc469b.png.PNG);
 }
 
-::placeholder{
-   padding-left: 5px;
+input{
+padding-left: 5px;
 }
 
 .categoriasproductos{
@@ -379,8 +362,8 @@ justify-content: center;
 }
 
 .mapa{  
-    height: 180px;
-    width: 400px;
+    height: 160px;
+    width: 350px;
     margin: 15px;
 }
 
