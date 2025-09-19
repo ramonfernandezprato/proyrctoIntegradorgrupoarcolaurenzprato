@@ -25,7 +25,9 @@
    display: flex;
    justify-content: center;
 }
-
+.barra{
+   padding-left: 300px;
+}
 .sectionproductos{
    background-color: #f4e0ab;
 }
@@ -80,7 +82,8 @@ a{
 }
 
 .titulo{
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
     background-color:#f2e0b3;
     padding-bottom: 10px;
     font-size: 50px;
