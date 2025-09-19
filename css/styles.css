@@ -161,6 +161,14 @@ ul li a{
    width: 100%;
    list-style: none;
 }
+.otrascategorias{
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   width: 100%;
+   list-style: none;
+   justify-content: center;
+}
 
 .masproductos{
    display: flex;
