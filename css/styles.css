@@ -388,16 +388,21 @@ padding-left: 5px;
 }
 
 .vermasproducto {
-   max-width: 1200px;
-   margin: 0 auto;
-   display: flex;
-   gap: 24px;
-   align-items: flex-start;
-   padding: 0px 30px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  gap: 30px; 
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.ordenproduct, .ordenproduct1{
+   flex: 1;
 }
 
 .fotosdetalle {
-   width: 500px;
+   width: 550px;
    background-color: #f2e0b3;
    border-radius: 12px;
    padding: 18px;
@@ -405,8 +410,9 @@ padding-left: 5px;
 }
 
 .thermodetalle1{
-   width: 450px;
-   height: 500px;
+   width: 500px;
+   height: 594px;
+   border-radius: 12px;
 }
 
 .textodetalle h2{
@@ -417,7 +423,6 @@ padding-left: 5px;
 .textodetalle h3, p{
    margin-bottom: 7px;
 }
-
 
 .textodetalle{
    width: 600px;
@@ -437,10 +442,6 @@ padding-left: 5px;
    margin-top: 30px;
 }
 
-.textodetalle1 ul{
-   padding: 20px;
-}
-
 .buttonbox1{
 display: flex;
 justify-content: end;
@@ -452,4 +453,50 @@ border: 0;
 background-color: #ddc588;
 font-weight: bold;
 border-radius: 8px;
+}
+
+.ptextodetalle1 {
+   margin-bottom: 20px;
+}
+
+.ltextodetalle1 {
+   margin-left: 50px;
+}
+
+.bodycategory{
+   background-color: #fcf0cf;
+   background-image: url(../img/ada0997a-ea5a-48cd-99f1-f61a36cc469b.png.PNG);
+}
+
+.resenasbox {
+   margin-top: 20px;
+}
+
+.resenas{
+   width: 550px;
+   background-color: #f2e0b3;
+   border-radius: 12px;
+   padding: 18px;
+   top: 20px;
+   margin-top: 20px;
+}
+
+.fotocomentario{
+   border-radius: 180px;
+   margin: 0 auto;
+   height: 100px;
+   width: 100px;
+   padding: 15px;
+}
+.rating {
+
+   font-size: 30px; 
+   display: inline-flex;
+   color: gold;
+}
+.rating input {
+   display: none;
+}
+.rating label {
+   color: gold;
 }
