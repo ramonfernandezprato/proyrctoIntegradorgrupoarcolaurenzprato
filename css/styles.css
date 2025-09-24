@@ -500,3 +500,19 @@ border-radius: 8px;
 .rating label {
    color: gold;
 }
+@media (max-width:420px){
+.mp .h1h1{
+   align-self: center;
+}
+.prod{
+width: 100%;
+margin: 10px;
+height: 400px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.categoriasproductos{
+display: none}
+}
