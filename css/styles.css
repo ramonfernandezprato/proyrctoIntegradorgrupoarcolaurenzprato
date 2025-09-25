@@ -8,8 +8,10 @@
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
-   background-color: #f2e0b3;
+   background-color: hsl(43, 71%, 83%);
    margin-bottom: 30px;
+   align-items: center;
+   padding: 5px 20px;
 }
 
 .bodyhome{
@@ -28,6 +30,20 @@
 .barra{
    padding-left: 300px;
 }
+
+.barrainput{
+   height: 35px;
+   border-radius: 8px;
+   border: 0;
+}
+
+.barrainput1{
+   height: 35px;
+   width: 25px;
+   border-radius: 8px;
+   border: 0;
+}
+
 .sectionproductos{
    background-color: #f4e0ab;
 }
@@ -188,7 +204,6 @@ ul li a{
 .footerhomebox{
     display: flex;
     justify-content: center;
-    flex-direction: row;
     background-color: #f4e0ab;
     margin-top: 15px;
     border-radius: 10px;
@@ -500,6 +515,15 @@ border-radius: 8px;
 .rating label {
    color: gold;
 }
+
+.category{
+   margin-left: 35px;
+}
+
+.cubiertos{
+   background-color: #ebc973;
+}
+
 @media (max-width:420px){
 .mp .h1h1{
    align-self: center;
