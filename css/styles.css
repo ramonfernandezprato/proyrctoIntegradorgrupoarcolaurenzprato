@@ -417,7 +417,7 @@ padding-left: 5px;
 }
 
 .fotosdetalle {
-   width: 550px;
+   width: 560px;
    background-color: #f2e0b3;
    border-radius: 12px;
    padding: 18px;
@@ -426,7 +426,7 @@ padding-left: 5px;
 
 .thermodetalle1{
    width: 500px;
-   height: 594px;
+   height: 660px;
    border-radius: 12px;
 }
 
@@ -539,4 +539,23 @@ justify-content: space-around;
 }
 .categoriasproductos{
 display: none}
+}
+
+.fechacomentario{
+   color: grey;
+   font-style: italic;
+}
+
+.stockproductobox{
+   display: flex;
+   justify-content: end;
+}
+
+.stockproducto{
+   font-style: italic;
+}
+
+.envioproducto{
+   color: green;
+
 }
