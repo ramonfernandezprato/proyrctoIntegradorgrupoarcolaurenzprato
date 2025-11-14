@@ -11,4 +11,15 @@ fetch('https://dummyjson.com/products')
         console.log("El error es: " + error);
     })
 
+let formulario = document.querySelector(".barra2")
+let campoBusqueda = document.querySelector(".barrainput")
+
+campoBusqueda.addEventListener("submit", function(){
+    if (campoBusqueda == ""){
+        alert("Debes rellenar el campo");
+    }
+    if (length.campoBusqueda < 4){
+        alert("El campo debe contener al menos 3 caracteres");
+    }
+});
 
