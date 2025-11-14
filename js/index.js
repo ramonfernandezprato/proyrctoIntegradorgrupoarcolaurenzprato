@@ -1,25 +1,25 @@
 fetch('https://dummyjson.com/products')
-    .then(function(respone){
-    return Response.json();
+    .then(function(response){
+        return response.json(); 
     })
-    
     .then(function(data){
-        console.log(data);
+        console.log(data); 
     })
-
     .catch(function(error){
         console.log("El error es: " + error);
-    })
-
+    });
 let formulario = document.querySelector(".barra2")
 let campoBusqueda = document.querySelector(".barrainput")
 
-campoBusqueda.addEventListener("submit", function(){
-    if (campoBusqueda == ""){
+formulario.addEventListener("submit", function(event){
+    if (campoBusqueda.value == ""){
+        event.preventDefault()
         alert("Debes rellenar el campo");
     }
-    if (length.campoBusqueda < 4){
+    if (campoBusqueda.value.length < 3){
+         event.preventDefault()
         alert("El campo debe contener al menos 3 caracteres");
+
     }
 });
 
