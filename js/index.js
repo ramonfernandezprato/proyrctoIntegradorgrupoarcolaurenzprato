@@ -13,6 +13,7 @@ fetch('https://dummyjson.com/products')
     .catch(function(error){
         console.log("El error es: " + error);
     });
+
 let formulario = document.querySelector(".barra2")
 let campoBusqueda = document.querySelector(".barrainput")
 
