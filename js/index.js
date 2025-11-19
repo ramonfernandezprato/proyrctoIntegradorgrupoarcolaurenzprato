@@ -1,4 +1,9 @@
 fetch('https://dummyjson.com/products')
+.then(res => res.json())
+.then(console.log);
+
+
+fetch('https://dummyjson.com/products')
     .then(function(response){
         return response.json(); 
     })
@@ -23,3 +28,33 @@ formulario.addEventListener("submit", function(event){
     }
 });
 
+const apiGroceries = "https://dummyjson.com/products/category/groceries";
+
+function cargarGroceries() {
+    const titulo = document.querySelector("me h1h1");
+    titulo.innerText = "Groceries";
+    fetch(apiGroceries)
+        .then(function(respuesta) {
+            const productos = data.products;
+            const lista = document.querySelector(".productos");
+            let html = "";
+
+            for (let i = 0; i < products.length && i < 10; i++) {
+                const p = productos[i];
+                html +=
+                '<article class="prod melegidos">' +
+                    '<img src="' + p.thumbnail + '" alt="' + p.title + '">' +
+                    "<h1>" + p.title +">" +
+                    "<p>" + p.description + "</p>" +
+                    "<h2>" + p.price +"</h2>" +
+                    "<a href=./product.html?id=" + p.id + ">VER MÁS</a>" + 
+                "</article>";
+            }
+
+            lista.innerHTML = html;
+        })
+}
+
+window.addEventListener("load", function() {
+    cargarGroceries();
+});
