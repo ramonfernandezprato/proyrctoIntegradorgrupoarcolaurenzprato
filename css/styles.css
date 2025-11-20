@@ -323,34 +323,16 @@ ul li a{
    margin-bottom: 30px;
 }
 
-.detallesvermas{
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   border: 1px solid black;
-   border-radius: 10px;
-   margin: 10px;
-   padding: 10px;
-   width: 300px;
-   height: 350px;
-   justify-content: space-around;
-   background-color: #f2e0b3;
-   margin-top: 15px;
-}
-.detallesvermas p{
-   padding: 10px;
-   justify-content:center;
-   text-align:center;
-}
-.detallesvermas h1{
-   text-align: center;
-   padding: 5px;
-}
-
 .ulbox{
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
+   justify-content: center;
+}
+
+.aleatorias {
+   display: flex;
+   flex-wrap: wrap;
    justify-content: center;
 }
 

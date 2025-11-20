@@ -37,4 +37,5 @@ if (dataUsuario) {
             <li class="head1"><a class="registro" href="./register.html">REGISTER</a></li>
         `;
     }
+    
 }
