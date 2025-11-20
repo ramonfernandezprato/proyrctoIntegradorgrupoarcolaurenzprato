@@ -43,16 +43,16 @@ function cargarGroceries() {
             const lista = document.querySelector(".productos");
             let html = "";
 
-            for (let i = 0; i < productos.length; i++) {
+            for (let i = 0; i < 12; i++) {
                 const p = productos[i];
 
                 html += `
-                <article class="prodmejleidos">
+                <article class="prod melegidos">
                     <img src="${p.thumbnail}" alt="${p.title}">
                     <h1>${p.title}</h1>
-                    <p>${p.description}</p>
+                    <p class="homep">${p.description}</p>
                     <h2>$${p.price}</h2>
-                    <a href="./product.html?id=${p.id}">VER MÁS</a>
+                    <p class="vermas"><a href="./product.html?id=${p.id}">VER MÁS</a><p>
                     </article>
                 `;
             }
@@ -81,16 +81,16 @@ function cargarAccesoriosCocina() {
             const lista = document.querySelector(".productos1");
             let html = "";
 
-            for (let i = 0; i < productos.length; i++) {
+            for (let i = 0; i < 12; i++) {
                 const p = productos[i];
 
                 html += `
-                <article class="prodmejleidos">
+                <article class="prod melegidos">
                     <img src="${p.thumbnail}" alt="${p.title}">
                     <h1>${p.title}</h1>
-                    <p>${p.description}</p>
+                    <p class="homep">${p.description}</p>
                     <h2>$${p.price}</h2>
-                    <a href="./product.html?id=${p.id}">VER MÁS</a>
+                    <p class="vermas"><a href="./product.html?id=${p.id}">VER MÁS</a><p>
                     </article>
                 `;
             }

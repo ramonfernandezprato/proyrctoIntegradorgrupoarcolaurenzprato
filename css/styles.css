@@ -176,7 +176,7 @@ ul li a{
    margin-top: 10px;
 }
 
-.melegidos, .mproductos{
+.melegidos, .mproductos, .prod{
    width: 200px;
    height: auto;
    margin: 16px;
@@ -189,6 +189,15 @@ ul li a{
    width: 100%;
    list-style: none;
 }
+
+.productos1{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   width: 100%;
+   list-style: none;
+}
+
 .otrascategorias{
    display: flex;
    flex-wrap: nowrap;
