@@ -1,4 +1,4 @@
-let form= document.querySelector(".formbox1 form")
+let form = document.querySelector(".formbox1 form")
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
