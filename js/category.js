@@ -1,20 +1,15 @@
-const params = new URLSearchParams(window.location.search);
-const categoriaId = params.get("id"); // viene desde index
+let params = new URLSearchParams(window.location.search);
+let categoriaId = params.get("id"); 
+let titulo = document.getElementById("tituloCategoria");
+let lista = document.querySelector(".listaProductos");
 
-// 2. Seleccionar elementos del HTML
-const titulo = document.getElementById("tituloCategoria");
-const lista = document.querySelector(".listaProductos");
-
-// 3. Si por algún motivo no mandaron categoría
 if (!categoriaId) {
     titulo.innerText = "CATEGORÍA NO ENCONTRADA";
     lista.innerHTML = "<p>No se seleccionó ninguna categoría.</p>";
 }
 
-// 4. Mostrar la categoría arriba (en mayúsculas)
 titulo.innerText = categoriaId.toUpperCase();
 
-// 5. Llamar a la API
 fetch(`https://dummyjson.com/products/category/${categoriaId}`)
     .then(res => res.json())
     .then(data => {

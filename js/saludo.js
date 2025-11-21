@@ -4,10 +4,6 @@ let mensaje = document.querySelector(".obligatorio_1");
 let lista = document.querySelector(".headhome ul");
 
 if (dataUsuario) {
-    try {
-        dataUsuario = JSON.parse(dataUsuario);
-    } catch (e) {}
-
     if (saludo) {
         saludo.innerText = "Bienvenido " + dataUsuario;
     }
@@ -16,11 +12,11 @@ if (dataUsuario) {
     }
     if (lista) {
         lista.innerHTML = `
+            <h2>Bienvenido: ${dataUsuario}</h2>
             <li class="head1"><a href="./index.html">HOME</a></li>
             <li class="head1"><a href="./serch-results.html">PRODUCTOS</a></li>
             <li class="head1"><a href="./category.html">CATEGORIAS</a></li>
             <li class="head1"><a href="#contacto">CONTACTO</a></li>
-            <li class="head1"><span style="color:white;">Bienvenido: ${dataUsuario};</span></li>
             <li class="head1"><a href="#" id="logoutBtn">Logout</a></li>
         `;
     }
