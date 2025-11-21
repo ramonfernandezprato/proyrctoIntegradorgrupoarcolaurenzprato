@@ -15,7 +15,6 @@ if (dataUsuario) {
         lista.innerHTML = `
             <h2>Bienvenido: ${dataUsuario}</h2>
             <li class="head1"><a href="./index.html">HOME</a></li>
-            <li class="head1"><a href="./serch-results.html">PRODUCTOS</a></li>
             <li class="head1"><a href="#contacto">CONTACTO</a></li>
             <li class="head1"><a href="#" id="logoutBtn">LOGOUT</a></li>
         `;
@@ -40,7 +39,6 @@ if (dataUsuario) {
     if (lista) {
         lista.innerHTML = `
             <li class="head1"><a href="./index.html">HOME</a></li>
-            <li class="head1"><a href="./serch-results.html">PRODUCTOS</a></li>
             <li class="head1"><a href="#contacto">CONTACTO</a></li>
             <li class="head1"><a class="login" href="./login.html">LOGIN</a></li>
             <li class="head1"><a class="registro" href="./register.html">REGISTER</a></li>
