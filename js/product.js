@@ -57,7 +57,7 @@ fetch(productUrl)
 
             reviews.innerHTML += `
                 <div class="comentarios-caja">
-                    <h3>${emojiRating}</h3>
+                    <h3 class = "estrellas"> ${emojiRating}</h3>
                     <p><strong>${review.reviewerName}:</strong> "${review.comment}"</p>
                     <p>${review.date}</p>
                 </div>

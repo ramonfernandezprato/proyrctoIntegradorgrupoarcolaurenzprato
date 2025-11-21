@@ -1,6 +1,7 @@
 let dataUsuario = localStorage.getItem("userName");
 let saludo = document.querySelector(".h1a");
 let mensaje = document.querySelector(".obligatorio_1");
+let bienvenido = document.querySelector(".headhome");
 let lista = document.querySelector(".headhome ul");
 
 if (dataUsuario) {
