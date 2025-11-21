@@ -37,6 +37,7 @@ fetch("https://dummyjson.com/products/category/" + categoriaId)
 
         lista.innerHTML = html;
     })
+
     .catch(function(error){
         console.log("Error: " + error);
         lista.innerHTML = "<p>No se pudieron cargar productos.</p>";
