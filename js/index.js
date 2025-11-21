@@ -82,11 +82,11 @@ window.addEventListener("load", function () {
         .then(function(respuesta) {
             return respuesta.json(); 
         })
-        .then(categorias => {
+        .then(function(categorias) {
 
             ulCategorias.innerHTML = "";
 
-            categorias.forEach(cat => {
+            categorias.forEach(function(cat) {
                 ulCategorias.innerHTML += `
                     <li>
                         <a href="./category.html?id=${cat.slug}">
@@ -96,7 +96,8 @@ window.addEventListener("load", function () {
                 `;
             });
         })
-        .catch(function(error){
+        .catch(function(error) {
             console.log("Error: " + error);
+            ulCategorias.innerHTML = "<li>No se pudieron cargar categorías</li>";
         });
 });

@@ -10,14 +10,18 @@ if (!categoriaId) {
 
 titulo.innerText = categoriaId.toUpperCase();
 
-fetch(`https://dummyjson.com/products/category/${categoriaId}`)
-    .then(res => res.json())
-    .then(data => {
+fetch("https://dummyjson.com/products/category/" + categoriaId)
+    .then(function(respuesta) { 
+        return respuesta.json(); 
+    })
+    .then(function(data) { 
 
         const productos = data.products;
         let html = "";
 
-        productos.forEach(p => {
+        for (let i = 0; i < productos.length; i++) {
+            const p = productos[i];
+
             html += `
                 <article class="prod melegidos">
                     <img src="${p.thumbnail}" alt="${p.title}">
@@ -29,11 +33,11 @@ fetch(`https://dummyjson.com/products/category/${categoriaId}`)
                     </p>
                 </article>
             `;
-        });
+        }
 
         lista.innerHTML = html;
     })
-    .catch(err => {
-        console.log(err);
+    .catch(function(error){
+        console.log("Error: " + error);
         lista.innerHTML = "<p>No se pudieron cargar productos.</p>";
     });
