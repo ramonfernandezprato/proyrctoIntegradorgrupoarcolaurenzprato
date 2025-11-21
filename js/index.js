@@ -72,3 +72,31 @@ function cargarAccesoriosCocina() {
 }
 
 window.addEventListener("load", cargarAccesoriosCocina);
+
+
+window.addEventListener("load", function () {
+
+    const ulCategorias = document.getElementById("listaCategorias");
+
+    fetch("https://dummyjson.com/products/categories")
+        .then(function(respuesta) {
+            return respuesta.json(); 
+        })
+        .then(categorias => {
+
+            ulCategorias.innerHTML = "";
+
+            categorias.forEach(cat => {
+                ulCategorias.innerHTML += `
+                    <li>
+                        <a href="./category.html?id=${cat.slug}">
+                            ${cat.name.toUpperCase()}
+                        </a>
+                    </li>
+                `;
+            });
+        })
+        .catch(function(error){
+            console.log("Error: " + error);
+        });
+});
