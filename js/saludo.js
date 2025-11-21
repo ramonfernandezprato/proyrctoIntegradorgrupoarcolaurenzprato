@@ -1,11 +1,15 @@
-let dataUsuario = localStorage.getItem('email');
-let saludo = document.querySelector('.h1a');
-let mensaje = document.querySelector('.obligatorio_1');
-let lista = document.querySelector('.headhome ul');
+let dataUsuario = localStorage.getItem("userName");
+let saludo = document.querySelector(".h1a");
+let mensaje = document.querySelector(".obligatorio_1");
+let lista = document.querySelector(".headhome ul");
 
 if (dataUsuario) {
+    try {
+        dataUsuario = JSON.parse(dataUsuario);
+    } catch (e) {}
+
     if (saludo) {
-        saludo.innerText = `Bienvenido ${dataUsuario}`;
+        saludo.innerText = "Bienvenido " + dataUsuario;
     }
     if (mensaje) {
         mensaje.innerText = "Nos alegra que te unas a Mundo Gourmet";
@@ -16,10 +20,20 @@ if (dataUsuario) {
             <li class="head1"><a href="./serch-results.html">PRODUCTOS</a></li>
             <li class="head1"><a href="./category.html">CATEGORIAS</a></li>
             <li class="head1"><a href="#contacto">CONTACTO</a></li>
-            <li class="head1"><span style="color:white; font-weight:bold">Bienvenido: ${dataUsuario}</span></li>
+            <li class="head1"><span style="color:white;">Bienvenido: ${dataUsuario};</span></li>
             <li class="head1"><a href="#" id="logoutBtn">Logout</a></li>
         `;
     }
+
+    let logoutBtn = document.querySelector("#logoutBtn");
+    if (logoutBtn) {
+        logoutBtn.addEventListener("click", function (event) {
+            event.preventDefault();
+            localStorage.removeItem("userName");
+            window.location.href = "./index.html";
+        });
+    }
+
 } else {
     if (saludo) {
         saludo.innerText = "";
@@ -37,5 +51,4 @@ if (dataUsuario) {
             <li class="head1"><a class="registro" href="./register.html">REGISTER</a></li>
         `;
     }
-    
 }
